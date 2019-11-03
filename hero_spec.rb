@@ -23,7 +23,7 @@ describe Hero do
   it "dispays full hero info" do
     hero = Hero.new 'mike'
 
-    expect(hero.info).to eq 'Mika has a health of 100'
+    expect(hero.hero_info).to eq 'Mike has a health of 100'
   end
 
 
